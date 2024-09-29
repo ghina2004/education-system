@@ -1,0 +1,11 @@
+{
+    "name": "ExamAndEvaluationManagement",
+    "alias": "examandevaluationmanagement",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\ExamAndEvaluationManagement\\Providers\\ExamAndEvaluationManagementServiceProvider"
+    ],
+    "files": []
+}

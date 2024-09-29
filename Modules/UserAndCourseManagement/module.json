@@ -1,0 +1,11 @@
+{
+    "name": "UserAndCourseManagement",
+    "alias": "userandcoursemanagement",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\UserAndCourseManagement\\Providers\\UserAndCourseManagementServiceProvider"
+    ],
+    "files": []
+}

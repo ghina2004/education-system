@@ -1,0 +1,5 @@
+{
+    "UserAndCourseManagement": true,
+    "LearningResourcesAndAssignmentManagement": true,
+    "ExamAndEvaluationManagement": true
+}

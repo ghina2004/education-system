@@ -1,0 +1,30 @@
+{
+    "name": "nwidart/userandcoursemanagement",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\UserAndCourseManagement\\": "app/",
+            "Modules\\UserAndCourseManagement\\Database\\Factories\\": "database/factories/",
+            "Modules\\UserAndCourseManagement\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\UserAndCourseManagement\\Tests\\": "tests/"
+        }
+    }
+}
