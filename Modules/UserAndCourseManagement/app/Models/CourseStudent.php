@@ -13,7 +13,17 @@ class CourseStudent extends Model
     /**
      * The attributes that are mass assignable.
      */
-    protected $fillable = [];
+    protected $fillable = ['course_id','user_id'];
+
+    public function course (){
+        return  $this->belongsTo(Course::class);
+
+    }
+    public function student (){
+        return  $this->belongsTo(Student::class);
+
+    }
+
 
     // protected static function newFactory(): CourseStudentFactory
     // {

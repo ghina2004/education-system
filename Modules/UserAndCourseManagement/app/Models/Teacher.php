@@ -13,7 +13,13 @@ class Teacher extends Model
     /**
      * The attributes that are mass assignable.
      */
-    protected $fillable = [];
+    protected $fillable = ['name','email'];
+
+    public $with = ['courses'];
+
+    public function courses (){
+        return  $this->hasMany(Course::class);
+    }
 
     // protected static function newFactory(): TeacherFactory
     // {

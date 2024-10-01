@@ -13,7 +13,7 @@ return new class extends Migration
     {
         Schema::create('assignment_submissions', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('user_id');
+            $table->foreignId('student_id');
             $table->foreignId('assignment_id');
             $table->string('file_path');
             $table->timestamps();
